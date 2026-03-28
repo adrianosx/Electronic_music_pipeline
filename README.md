@@ -9,19 +9,19 @@ O dashboard foi construído para transformar dados brutos de APIs em inteligênc
 ### 1. Correlação: Popularidade vs. Histórico (Billboard)
 Nesta visão, cruzamos o volume de ouvintes reais do Last.fm com o "peso" histórico do artista na Billboard (tamanho da bolha).
 <p align="center">
-  <img src="screenshots/grafico_bolhas.png" width="800" title="Gráfico de Bolhas - Correlação de Dados">
+  <img src="screenshots/grafico_bolhas1.png" width="800" title="Gráfico de Bolhas - Correlação de Dados">
 </p>
 
 ### 2. Linha do Tempo: Dominância de Hits (2000-2026)
 Análise de séries temporais mostrando quais DJs dominaram o Top 10 da Billboard ao longo das décadas.
 <p align="center">
-  <img src="screenshots/historico_billboard.png" width="800" title="Evolução Billboard">
+  <img src="screenshots/historico_billboard2.png" width="800" title="Evolução Billboard">
 </p>
 
 ### 3. Métricas de Mercado e Camada Silver
 Visualização dos dados processados, incluindo estimativas de cachês e a tabela final de dados brutos (Raw Data).
 <p align="center">
-  <img src="screenshots/metricas_topo.png" width="800" title="Métricas de Mercado">
+  <img src="screenshots/metricas_topo3.png" width="800" title="Métricas de Mercado">
 </p>
 
 ## 🛠️ Tecnologias Utilizadas
