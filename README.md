@@ -2,24 +2,27 @@
 
 Este projeto é um pipeline de dados ponta a ponta que extrai tendências da música eletrônica global, cruza dados de popularidade atual com o histórico da Billboard (2000-2026) e apresenta os insights em um dashboard interativo.
 
-## 📊 Demonstração do Dashboard
+## 🖼️ Visualização do Pipeline (Screenshots)
 
-Aqui está uma visão geral das análises geradas pelo pipeline:
+O dashboard foi construído para transformar dados brutos de APIs em inteligência de mercado. Abaixo, as principais funcionalidades:
 
-### 🔵 Popularidade vs. Billboard
-Este gráfico cruza os dados em tempo real do Last.fm com o histórico de hits. O tamanho da bolha indica a relevância histórica do DJ.
+### 1. Correlação: Popularidade vs. Histórico (Billboard)
+Nesta visão, cruzamos o volume de ouvintes reais do Last.fm com o "peso" histórico do artista na Billboard (tamanho da bolha).
+<p align="center">
+  <img src="screenshots/grafico_bolhas.png" width="800" title="Gráfico de Bolhas - Correlação de Dados">
+</p>
 
-![Gráfico de Bolhas](screenshots/grafico_bolhas.png)
+### 2. Linha do Tempo: Dominância de Hits (2000-2026)
+Análise de séries temporais mostrando quais DJs dominaram o Top 10 da Billboard ao longo das décadas.
+<p align="center">
+  <img src="screenshots/historico_billboard.png" width="800" title="Evolução Billboard">
+</p>
 
-### 📈 Evolução Histórica (2000-2026)
-Análise de dominância de artistas nos charts da Billboard ao longo das décadas.
-
-![Histórico Billboard](screenshots/historico_billboard.png)
-
-### 💰 Insights de Mercado
-Visualização de cachês estimados e premiações da indústria.
-
-![Mercado](screenshots/metricas_topo.png)
+### 3. Métricas de Mercado e Camada Silver
+Visualização dos dados processados, incluindo estimativas de cachês e a tabela final de dados brutos (Raw Data).
+<p align="center">
+  <img src="screenshots/metricas_topo.png" width="800" title="Métricas de Mercado">
+</p>
 
 ## 🛠️ Tecnologias Utilizadas
 * **Linguagem:** Python 3.10+
