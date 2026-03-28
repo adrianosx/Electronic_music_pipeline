@@ -1,0 +1,6 @@
+requests
+pandas
+billboard.py
+python-dotenv
+streamlit
+plotly
