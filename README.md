@@ -2,6 +2,25 @@
 
 Este projeto é um pipeline de dados ponta a ponta que extrai tendências da música eletrônica global, cruza dados de popularidade atual com o histórico da Billboard (2000-2026) e apresenta os insights em um dashboard interativo.
 
+## 📊 Demonstração do Dashboard
+
+Aqui está uma visão geral das análises geradas pelo pipeline:
+
+### 🔵 Popularidade vs. Billboard
+Este gráfico cruza os dados em tempo real do Last.fm com o histórico de hits. O tamanho da bolha indica a relevância histórica do DJ.
+
+![Gráfico de Bolhas](screenshots/grafico_bolhas.png)
+
+### 📈 Evolução Histórica (2000-2026)
+Análise de dominância de artistas nos charts da Billboard ao longo das décadas.
+
+![Histórico Billboard](screenshots/historico_billboard.png)
+
+### 💰 Insights de Mercado
+Visualização de cachês estimados e premiações da indústria.
+
+![Mercado](screenshots/metricas_topo.png)
+
 ## 🛠️ Tecnologias Utilizadas
 * **Linguagem:** Python 3.10+
 * **Extração:** Last.fm API, Billboard.py (Web Scraping)
